@@ -1,0 +1,5 @@
+create table game (name varchar2(15) primary key ,
+type varchar2(10),
+sizee float(5),
+Company varchar2(10),
+image varchar2(100));

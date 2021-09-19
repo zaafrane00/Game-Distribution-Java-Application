@@ -1,0 +1,8 @@
+create table userr (nom varchar2(15) NOT NULL,
+    prenom varchar2(15) NOT NULL,
+    email varchar2(35) NOT NULL,
+    password varchar2(10) NOT NULL,
+    imageU varchar2(50), 
+Constraint pk_user primary key (email ,password ));
+   
+   
